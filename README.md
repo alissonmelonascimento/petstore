@@ -2,7 +2,7 @@
 
 O projeto tem como objetivo exemplificar como modularizar uma aplicação Quarkus usando extensões criadas pelo próprio desenvolvedor.
 
-Para este projeto, foi criado um módulo separado que faz a gravação de dados de auditoria das requisições feita ao petshop.
+Para este projeto, foi criado um módulo separado para gravar dados de auditoria das requisições que chegam ao backend do petshop.
 
 Para ter acesso ao código-fonte do modulo responsável pela gravação dos dados no banco, acesse: https://github.com/alissonmelonascimento/petstore-audit
 
