@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  postgres_petstore:
+    container_name: postgres_petstore
+    image: postgres:12.2
+    environment:
+      POSTGRES_USER: pet
+      POSTGRES_PASSWORD: pet
+    ports:
+      - "5432:5432"
