@@ -6,6 +6,16 @@ Para este projeto, foi criado um módulo separado para gravar dados de auditoria
 
 Para ter acesso ao código-fonte do modulo responsável pela gravação dos dados no banco, acesse: https://github.com/alissonmelonascimento/petstore-audit
 
+# executando o projeto
+
+<ul>
+  <li>Instale o docker</li>
+  <li>Na linha de comando do seu sistemas operacional, digite "docker-compose up"</li>
+  <li>Aguarde o docker instalar as imagens e subir o serviço</li>
+  <li>Vá até o diretório da aplicação e sigite "mvn docker:dev"</li>
+  <li>Para acessar o swagger da aplicação, acesse a url: http://localhost:8080/swagger-ui/</li>
+</ul>
+
 # petstore project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
