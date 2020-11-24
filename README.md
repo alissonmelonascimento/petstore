@@ -2,7 +2,7 @@
 
 O projeto tem como objetivo exemplificar como modularizar uma aplicação Quarkus usando extensões criadas pelo próprio desenvolvedor.
 
-Para este projeto, foi criado um módulo separado para gravar dados de auditoria das requisições que chegam ao backend do petshop.
+Para este projeto, foram criados dois módulos: um módulo principal que receberá as requisições e repassará para um backend disponível na internet (https://petstore.swagger.io/) usando rest client e outro módulo para gravar dados de auditoria das requisições efetuadas.
 
 Para ter acesso ao código-fonte do modulo responsável pela gravação dos dados no banco, acesse: https://github.com/alissonmelonascimento/petstore-audit
 
