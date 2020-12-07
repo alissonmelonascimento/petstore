@@ -12,7 +12,7 @@ Para ter acesso ao código-fonte do modulo responsável pela gravação dos dado
   <li>Instale o docker</li>
   <li>Na linha de comando do seu sistema operacional, navegue até a pasta do projeto e digite "docker-compose up"</li>
   <li>Aguarde o docker instalar as imagens e subir o serviço</li>
-  <li>Vá até o diretório da aplicação e digite "mvn docker:dev"</li>
+  <li>Para subir a aplicação digite "mvn docker:dev"</li>
   <li>Para ver os serviços disponíveis, acesse o swagger da aplicação: http://localhost:8080/swagger-ui/</li>
 </ul>
 
