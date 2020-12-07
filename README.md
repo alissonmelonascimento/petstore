@@ -1,8 +1,8 @@
 # sobre o projeto
 
-O projeto tem como objetivo exemplificar como modularizar uma aplicação Quarkus usando extensões criadas pelo próprio desenvolvedor.
+O projeto tem como objetivo mostrar um exemplo de modularização de uma aplicação Quarkus usando extensões criadas pelo próprio desenvolvedor.
 
-Para este projeto, foram criados dois módulos: um módulo principal que receberá as requisições e repassará para um backend disponível na internet (https://petstore.swagger.io/) usando rest client e outro módulo para gravar dados de auditoria das requisições efetuadas.
+Foram criados dois módulos: um módulo principal que receberá as requisições e repassará para um backend disponível na internet (https://petstore.swagger.io/) usando rest client e outro módulo para gravar dados de auditoria das requisições efetuadas.
 
 Para ter acesso ao código-fonte do modulo responsável pela gravação dos dados no banco, acesse: https://github.com/alissonmelonascimento/petstore-audit
 
@@ -10,10 +10,10 @@ Para ter acesso ao código-fonte do modulo responsável pela gravação dos dado
 
 <ul>
   <li>Instale o docker</li>
-  <li>Na linha de comando do seu sistema operacional, digite "docker-compose up"</li>
+  <li>Na linha de comando do seu sistema operacional, navegue até a pasta do projeto e digite "docker-compose up"</li>
   <li>Aguarde o docker instalar as imagens e subir o serviço</li>
   <li>Vá até o diretório da aplicação e digite "mvn docker:dev"</li>
-  <li>Para acessar o swagger da aplicação, acesse a url: http://localhost:8080/swagger-ui/</li>
+  <li>Para ver os serviços disponíveis, acesse o swagger da aplicação: http://localhost:8080/swagger-ui/</li>
 </ul>
 
 # petstore project
